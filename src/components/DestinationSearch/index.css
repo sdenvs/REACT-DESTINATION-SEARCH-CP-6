@@ -14,11 +14,15 @@
   font-size: 30px;
 }
 .inputEl {
-  background-color: #f1f5f9;
-  background-image: url('https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png');
+  background-color: #909ba7;
   height: 40px;
   width: 400px;
   border-style: none;
   border-radius: 10px;
   font-size: 15px;
+  background: url('https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png')
+    no-repeat scroll;
+  background-position: right;
+  background-size: 30px 30px;
+  padding-left: 30px;
 }
