@@ -21,13 +21,20 @@ class DestinationSearch extends Component {
     return (
       <div className="bgContainer">
         <h1 className="heading">Destination Search</h1>
-        <input
-          onChange={this.textChanged}
-          className="inputEl"
-          type="search"
-          placeholder="Search"
-          value={searchText}
-        />
+        <div className="inputCo">
+          <input
+            onChange={this.textChanged}
+            type="search"
+            className="inputEl"
+            placeholder="Search"
+            value={searchText}
+          />
+          <img
+            className="icon-image"
+            alt="search icon"
+            src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png"
+          />
+        </div>
         <ul className="cardsContainer">
           {displayResult.map(eachItem => (
             <DestinationItem key={eachItem.id} destinationsPlace={eachItem} />

@@ -8,7 +8,7 @@ const DestinationItem = prop => {
   console.log(prop)
   return (
     <li className="card">
-      <img className="image" alt="search icon" src={imgUrl} />
+      <img className="image" alt={name} src={imgUrl} />
       <p>{name}</p>
     </li>
   )
