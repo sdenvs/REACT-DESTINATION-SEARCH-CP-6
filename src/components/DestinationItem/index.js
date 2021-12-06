@@ -7,10 +7,10 @@ const DestinationItem = prop => {
 
   console.log(prop)
   return (
-    <div className="card">
-      <img className="image" alt={name} src={imgUrl} />
+    <li className="card">
+      <img className="image" alt="search icon" src={imgUrl} />
       <p>{name}</p>
-    </div>
+    </li>
   )
 }
 

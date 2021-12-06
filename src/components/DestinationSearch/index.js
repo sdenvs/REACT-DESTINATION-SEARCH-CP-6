@@ -28,11 +28,11 @@ class DestinationSearch extends Component {
           placeholder="Search"
           value={searchText}
         />
-        <div className="cardsContainer">
+        <ul className="cardsContainer">
           {displayResult.map(eachItem => (
             <DestinationItem key={eachItem.id} destinationsPlace={eachItem} />
           ))}
-        </div>
+        </ul>
       </div>
     )
   }
