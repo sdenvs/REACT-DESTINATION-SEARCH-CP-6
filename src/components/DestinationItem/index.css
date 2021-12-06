@@ -1,1 +1,8 @@
 /* Write your CSS here */
+.image {
+  width: 250px;
+}
+.card {
+  margin: 30px;
+  margin-left: 0px;
+}
